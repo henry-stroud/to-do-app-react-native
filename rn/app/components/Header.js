@@ -1,10 +1,12 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
+
 const Header = ({ title }) => (
   <View style={styles.headerContainer}>
     <Text style={styles.headerText}>{title.toUpperCase()}</Text>
   </View>
-);
+)
+
 const styles = StyleSheet.create({
   headerContainer: {
     marginTop: 40
@@ -14,5 +16,6 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: '500'
   }
-});
-export default Header;
+})
+
+export default Header

@@ -1,12 +1,13 @@
 import React from 'react'
 import { StyleSheet, TextInput } from 'react-native'
 import { inputPlaceholder } from '../utils/Colors'
+
 const Input = ({ inputValue, onChangeText, onDoneAddItem }) => (
   <TextInput
     style={styles.input}
     value={inputValue}
     onChangeText={onChangeText}
-    placeholder="Type here to add note."
+    placeholder="Type here to add notes."
     placeholderTextColor={inputPlaceholder}
     multiline={true}
     autoCapitalize="sentences"
